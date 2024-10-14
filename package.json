@@ -1,0 +1,19 @@
+{
+  "name": "nodejaapplication",
+  "version": "1.0.0",
+  "description": "creating new application with the help of nodeandexpress and backend api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev":"nodemon index.js"
+  },
+  "author": "Utkarsha Turambekar",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
